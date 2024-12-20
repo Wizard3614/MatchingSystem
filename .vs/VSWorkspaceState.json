@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\bin",
+    "\\Dbcontext",
+    "\\Models",
+    "\\Models\\Requests",
+    "\\Models\\tables",
+    "\\obj",
+    "\\obj\\Debug",
+    "\\Properties",
+    "\\Services"
+  ],
+  "SelectedNode": "\\Services\\SHA.cs",
+  "PreviewInSolutionExplorer": false
+}
