@@ -3,92 +3,116 @@
   "WorkspaceRootPath": "C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Services\\SHA.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\SHA.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Models\\tables\\Roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\tables\\Roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Controllers\\AuthController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\AuthController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Models\\Requests\\CreateRoleRequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\Requests\\CreateRoleRequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Services\\AuthService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\AuthService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Controllers\\UserController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\UserController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Dbcontext\\RoleDbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Dbcontext\\RoleDbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Properties\\launchSettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Properties\\launchSettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Services\\Jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\Jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Models\\Requests\\RegisterUserRequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\Requests\\RegisterUserRequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Models\\tables\\User.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\tables\\User.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Services\\UserService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\UserService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\obj\\project.assets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:obj\\project.assets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Services\\RoleService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\RoleService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Dbcontext\\UserDbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Dbcontext\\UserDbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Migrations\\20241218163251_Userone.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20241218163251_Userone.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Migrations\\20241218163251_Userone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20241218163251_Userone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Migrations\\UserDbContextModelSnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\UserDbContextModelSnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Models\\Requests\\validate-login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\Requests\\validate-login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Models\\Requests\\UserDetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\Requests\\UserDetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Services\\redisService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\redisService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Models\\Requests\\LoginUserRequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\Requests\\LoginUserRequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Models\\Requests\\ForgotPasswordRequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\Requests\\ForgotPasswordRequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Models\\Requests\\LoginUserRequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\Requests\\LoginUserRequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Controllers\\RoleController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\RoleController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Models\\Requests\\RegisterUserRequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\Requests\\RegisterUserRequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Models\\tables\\User.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\tables\\User.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Models\\JwtBody.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\JwtBody.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Services\\IRoleService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\IRoleService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Services\\Jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\Jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Services\\redisService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\redisService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Services\\AuthService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\AuthService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Migrations\\UserDbContextModelSnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\UserDbContextModelSnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Controllers\\AuthController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\AuthController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Controllers\\UserController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\UserController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Migrations\\20241218163251_Userone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20241218163251_Userone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\WeatherForecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WeatherForecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Models\\Requests\\validate-login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\Requests\\validate-login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Services\\UserService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\UserService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Services\\SHA.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\SHA.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Models\\Requests\\UserDetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\Requests\\UserDetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\obj\\project.assets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:obj\\project.assets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Migrations\\20241218163251_Userone.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20241218163251_Userone.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Models\\JwtBody.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\JwtBody.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -114,17 +138,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 14,
+          "SelectedChildIndex": 17,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Models\\tables\\User.cs",
               "RelativeDocumentMoniker": "Models\\tables\\User.cs",
               "ToolTip": "C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Models\\tables\\User.cs",
               "RelativeToolTip": "Models\\tables\\User.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAwAAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-18T07:26:44.607Z",
               "IsPinned": true,
@@ -168,72 +192,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Jwtservice.cs",
-              "DocumentMoniker": "C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Services\\Jwtservice.cs",
-              "RelativeDocumentMoniker": "Services\\Jwtservice.cs",
-              "ToolTip": "C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Services\\Jwtservice.cs",
-              "RelativeToolTip": "Services\\Jwtservice.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T19:21:10.619Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Controllers\\UserController.cs",
-              "RelativeToolTip": "Controllers\\UserController.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T20:16:02.261Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "Controllers\\AuthController.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAAIQAAAAAAAAAAAAAAA==",
+              "Title": "CreateRoleRequest.cs",
+              "DocumentMoniker": "C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Models\\Requests\\CreateRoleRequest.cs",
+              "RelativeDocumentMoniker": "Models\\Requests\\CreateRoleRequest.cs",
+              "ToolTip": "C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Models\\Requests\\CreateRoleRequest.cs",
+              "RelativeToolTip": "Models\\Requests\\CreateRoleRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T07:53:20.697Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AuthService.cs",
-              "DocumentMoniker": "C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Services\\AuthService.cs",
-              "RelativeDocumentMoniker": "Services\\AuthService.cs",
-              "ToolTip": "C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Services\\AuthService.cs",
-              "RelativeToolTip": "Services\\AuthService.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAAAE0AAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T21:28:27.752Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "SHA.cs",
-              "DocumentMoniker": "C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Services\\SHA.cs",
-              "RelativeDocumentMoniker": "Services\\SHA.cs",
-              "ToolTip": "C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Services\\SHA.cs",
-              "RelativeToolTip": "Services\\SHA.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T17:17:54.397Z",
+              "WhenOpened": "2024-12-21T11:58:56.258Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "RegisterUserRequest.cs",
+              "DocumentMoniker": "C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Models\\Requests\\RegisterUserRequest.cs",
+              "RelativeDocumentMoniker": "Models\\Requests\\RegisterUserRequest.cs",
+              "ToolTip": "C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Models\\Requests\\RegisterUserRequest.cs",
+              "RelativeToolTip": "Models\\Requests\\RegisterUserRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T18:50:54.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",
@@ -246,72 +231,137 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Services\\UserService.cs",
-              "RelativeDocumentMoniker": "Services\\UserService.cs",
-              "ToolTip": "C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Services\\UserService.cs",
-              "RelativeToolTip": "Services\\UserService.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACAAAAARAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "RoleDbcontext.cs",
+              "DocumentMoniker": "C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Dbcontext\\RoleDbcontext.cs",
+              "RelativeDocumentMoniker": "Dbcontext\\RoleDbcontext.cs",
+              "ToolTip": "C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Dbcontext\\RoleDbcontext.cs",
+              "RelativeToolTip": "Dbcontext\\RoleDbcontext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T22:09:07.181Z",
+              "WhenOpened": "2024-12-21T12:20:28.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserDbcontext.cs",
+              "DocumentMoniker": "C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Dbcontext\\UserDbcontext.cs",
+              "RelativeDocumentMoniker": "Dbcontext\\UserDbcontext.cs",
+              "ToolTip": "C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Dbcontext\\UserDbcontext.cs",
+              "RelativeToolTip": "Dbcontext\\UserDbcontext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T07:34:26.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T07:46:00.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RoleService.cs",
+              "DocumentMoniker": "C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Services\\RoleService.cs",
+              "RelativeDocumentMoniker": "Services\\RoleService.cs",
+              "ToolTip": "C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Services\\RoleService.cs",
+              "RelativeToolTip": "Services\\RoleService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T14:53:56.043Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Roles.cs",
+              "DocumentMoniker": "C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Models\\tables\\Roles.cs",
+              "RelativeDocumentMoniker": "Models\\tables\\Roles.cs",
+              "ToolTip": "C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Models\\tables\\Roles.cs",
+              "RelativeToolTip": "Models\\tables\\Roles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T12:23:02.64Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "project.assets.json",
-              "DocumentMoniker": "C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\obj\\project.assets.json",
-              "RelativeDocumentMoniker": "obj\\project.assets.json",
-              "ToolTip": "C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\obj\\project.assets.json",
-              "RelativeToolTip": "obj\\project.assets.json",
-              "ViewState": "AgIAAAIBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-20T08:06:26.899Z",
+              "Title": "LoginUserRequest.cs",
+              "DocumentMoniker": "C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Models\\Requests\\LoginUserRequest.cs",
+              "RelativeDocumentMoniker": "Models\\Requests\\LoginUserRequest.cs",
+              "ToolTip": "C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Models\\Requests\\LoginUserRequest.cs",
+              "RelativeToolTip": "Models\\Requests\\LoginUserRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T18:49:52.703Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "20241218163251_Userone.cs",
-              "DocumentMoniker": "C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Migrations\\20241218163251_Userone.cs",
-              "RelativeDocumentMoniker": "Migrations\\20241218163251_Userone.cs",
-              "ToolTip": "C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Migrations\\20241218163251_Userone.cs",
-              "RelativeToolTip": "Migrations\\20241218163251_Userone.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "ForgotPasswordRequest.cs",
+              "DocumentMoniker": "C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Models\\Requests\\ForgotPasswordRequest.cs",
+              "RelativeDocumentMoniker": "Models\\Requests\\ForgotPasswordRequest.cs",
+              "ToolTip": "C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Models\\Requests\\ForgotPasswordRequest.cs",
+              "RelativeToolTip": "Models\\Requests\\ForgotPasswordRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-20T08:02:29.194Z",
+              "WhenOpened": "2024-12-19T20:10:36.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RoleController.cs",
+              "DocumentMoniker": "C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Controllers\\RoleController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RoleController.cs",
+              "ToolTip": "C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Controllers\\RoleController.cs",
+              "RelativeToolTip": "Controllers\\RoleController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T14:48:54.183Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IRoleService.cs",
+              "DocumentMoniker": "C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Services\\IRoleService.cs",
+              "RelativeDocumentMoniker": "Services\\IRoleService.cs",
+              "ToolTip": "C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Services\\IRoleService.cs",
+              "RelativeToolTip": "Services\\IRoleService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T12:52:31.518Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "validate-login.cs",
-              "DocumentMoniker": "C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Models\\Requests\\validate-login.cs",
-              "RelativeDocumentMoniker": "Models\\Requests\\validate-login.cs",
-              "ToolTip": "C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Models\\Requests\\validate-login.cs",
-              "RelativeToolTip": "Models\\Requests\\validate-login.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Title": "Jwtservice.cs",
+              "DocumentMoniker": "C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Services\\Jwtservice.cs",
+              "RelativeDocumentMoniker": "Services\\Jwtservice.cs",
+              "ToolTip": "C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Services\\Jwtservice.cs",
+              "RelativeToolTip": "Services\\Jwtservice.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T18:24:15.674Z",
+              "WhenOpened": "2024-12-19T19:21:10.619Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "UserDetails.cs",
-              "DocumentMoniker": "C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Models\\Requests\\UserDetails.cs",
-              "RelativeDocumentMoniker": "Models\\Requests\\UserDetails.cs",
-              "ToolTip": "C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Models\\Requests\\UserDetails.cs",
-              "RelativeToolTip": "Models\\Requests\\UserDetails.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T22:26:17.389Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
               "Title": "redisService.cs",
               "DocumentMoniker": "C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Services\\redisService.cs",
               "RelativeDocumentMoniker": "Services\\redisService.cs",
@@ -324,46 +374,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "UserDbcontext.cs",
-              "DocumentMoniker": "C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Dbcontext\\UserDbcontext.cs",
-              "RelativeDocumentMoniker": "Dbcontext\\UserDbcontext.cs",
-              "ToolTip": "C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Dbcontext\\UserDbcontext.cs",
-              "RelativeToolTip": "Dbcontext\\UserDbcontext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T07:34:26.482Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "20241218163251_Userone.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Migrations\\20241218163251_Userone.Designer.cs",
-              "RelativeDocumentMoniker": "Migrations\\20241218163251_Userone.Designer.cs",
-              "ToolTip": "C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Migrations\\20241218163251_Userone.Designer.cs",
-              "RelativeToolTip": "Migrations\\20241218163251_Userone.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-20T07:01:39.166Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 16,
-              "Title": "ForgotPasswordRequest.cs",
-              "DocumentMoniker": "C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Models\\Requests\\ForgotPasswordRequest.cs",
-              "RelativeDocumentMoniker": "Models\\Requests\\ForgotPasswordRequest.cs",
-              "ToolTip": "C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Models\\Requests\\ForgotPasswordRequest.cs",
-              "RelativeToolTip": "Models\\Requests\\ForgotPasswordRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T20:10:36.107Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
               "Title": "UserDbContextModelSnapshot.cs",
               "DocumentMoniker": "C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Migrations\\UserDbContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "Migrations\\UserDbContextModelSnapshot.cs",
@@ -377,40 +388,53 @@
             {
               "$type": "Document",
               "DocumentIndex": 17,
-              "Title": "LoginUserRequest.cs",
-              "DocumentMoniker": "C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Models\\Requests\\LoginUserRequest.cs",
-              "RelativeDocumentMoniker": "Models\\Requests\\LoginUserRequest.cs",
-              "ToolTip": "C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Models\\Requests\\LoginUserRequest.cs",
-              "RelativeToolTip": "Models\\Requests\\LoginUserRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T18:49:52.703Z",
+              "WhenOpened": "2024-12-18T07:53:20.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Services\\AuthService.cs",
+              "RelativeToolTip": "Services\\AuthService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABQAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T21:28:27.752Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 18,
-              "Title": "RegisterUserRequest.cs",
-              "DocumentMoniker": "C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Models\\Requests\\RegisterUserRequest.cs",
-              "RelativeDocumentMoniker": "Models\\Requests\\RegisterUserRequest.cs",
-              "ToolTip": "C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Models\\Requests\\RegisterUserRequest.cs",
-              "RelativeToolTip": "Models\\Requests\\RegisterUserRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T18:50:54.795Z",
+              "WhenOpened": "2024-12-19T20:16:02.261Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 19,
-              "Title": "JwtBody.cs",
-              "DocumentMoniker": "C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Models\\JwtBody.cs",
-              "RelativeDocumentMoniker": "Models\\JwtBody.cs",
-              "ToolTip": "C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Models\\JwtBody.cs",
-              "RelativeToolTip": "Models\\JwtBody.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Title": "20241218163251_Userone.cs",
+              "DocumentMoniker": "C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Migrations\\20241218163251_Userone.cs",
+              "RelativeDocumentMoniker": "Migrations\\20241218163251_Userone.cs",
+              "ToolTip": "C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Migrations\\20241218163251_Userone.cs",
+              "RelativeToolTip": "Migrations\\20241218163251_Userone.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T19:19:01.922Z",
+              "WhenOpened": "2024-12-20T08:02:29.194Z",
               "EditorCaption": ""
             },
             {
@@ -429,19 +453,94 @@
             {
               "$type": "Document",
               "DocumentIndex": 21,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAADMAAAAlAAAAAAAAAA==",
+              "Title": "validate-login.cs",
+              "DocumentMoniker": "C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Models\\Requests\\validate-login.cs",
+              "RelativeDocumentMoniker": "Models\\Requests\\validate-login.cs",
+              "ToolTip": "C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Models\\Requests\\validate-login.cs",
+              "RelativeToolTip": "Models\\Requests\\validate-login.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T07:46:00.588Z",
+              "WhenOpened": "2024-12-19T18:24:15.674Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 22,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Services\\UserService.cs",
+              "RelativeToolTip": "Services\\UserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T22:09:07.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "SHA.cs",
+              "DocumentMoniker": "C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Services\\SHA.cs",
+              "RelativeDocumentMoniker": "Services\\SHA.cs",
+              "ToolTip": "C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Services\\SHA.cs",
+              "RelativeToolTip": "Services\\SHA.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T17:17:54.397Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "UserDetails.cs",
+              "DocumentMoniker": "C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Models\\Requests\\UserDetails.cs",
+              "RelativeDocumentMoniker": "Models\\Requests\\UserDetails.cs",
+              "ToolTip": "C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Models\\Requests\\UserDetails.cs",
+              "RelativeToolTip": "Models\\Requests\\UserDetails.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T22:26:17.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "project.assets.json",
+              "DocumentMoniker": "C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\obj\\project.assets.json",
+              "RelativeDocumentMoniker": "obj\\project.assets.json",
+              "ToolTip": "C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\obj\\project.assets.json",
+              "RelativeToolTip": "obj\\project.assets.json",
+              "ViewState": "AgIAAAIBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-20T08:06:26.899Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "20241218163251_Userone.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Migrations\\20241218163251_Userone.Designer.cs",
+              "RelativeDocumentMoniker": "Migrations\\20241218163251_Userone.Designer.cs",
+              "ToolTip": "C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Migrations\\20241218163251_Userone.Designer.cs",
+              "RelativeToolTip": "Migrations\\20241218163251_Userone.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T07:01:39.166Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "JwtBody.cs",
+              "DocumentMoniker": "C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Models\\JwtBody.cs",
+              "RelativeDocumentMoniker": "Models\\JwtBody.cs",
+              "ToolTip": "C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\Models\\JwtBody.cs",
+              "RelativeToolTip": "Models\\JwtBody.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T19:19:01.922Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -453,7 +552,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 29,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\appsettings.Development.json",
               "RelativeDocumentMoniker": "appsettings.Development.json",
@@ -465,7 +564,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 30,
               "Title": "MatchingSystem.csproj",
               "DocumentMoniker": "C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\MatchingSystem.csproj",
               "RelativeDocumentMoniker": "MatchingSystem.csproj",
@@ -477,7 +576,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 31,
               "Title": "MatchingSystem.http",
               "DocumentMoniker": "C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\MatchingSystem.http",
               "RelativeDocumentMoniker": "MatchingSystem.http",

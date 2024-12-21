@@ -1,8 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\bin",
     "\\Dbcontext",
+    "\\Migrations",
     "\\Models",
     "\\Models\\Requests",
     "\\Models\\tables",
@@ -11,6 +11,6 @@
     "\\Properties",
     "\\Services"
   ],
-  "SelectedNode": "\\Services\\SHA.cs",
+  "SelectedNode": "\\Models\\tables\\Roles.cs",
   "PreviewInSolutionExplorer": false
 }
