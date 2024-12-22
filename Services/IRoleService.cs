@@ -20,7 +20,18 @@ namespace MatchingSystem.Services
 {
     public interface IRoleService
     {
+        //创建角色
         Task<(bool success, string message)> CreateRoleAsync(CreateRoleRequest request);
         // 添加其他接口方法签名
+
+        //更新角色
+        Task<(bool success, string message)> UpdateRoleAsync(string roleId, string newRoleName, List<string> newPermissions);
+
+        //删除角色
+        Task<(bool success, string message)> DeleteRoleAsync(string roleId);
+
+        ////查看角色列表
+        Task<List<Roles>> GetRolesAsync();
+        //Task<Role> GetRoleByIdAsync(Guid roleId);
     }
 }

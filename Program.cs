@@ -23,6 +23,7 @@ builder.Services.AddDbContext<UserDbContext>(options =>
 builder.Services.AddDbContext<RoleDbContext>(options =>
     options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
 
+
 // Add JWT Authentication
 var secretKey = builder.Configuration["Jwt:SecretKey"]; // Fetch JWT secret key from configuration
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)

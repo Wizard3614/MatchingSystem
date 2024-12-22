@@ -1,16 +1,17 @@
 {
   "ExpandedNodes": [
     "",
+    "\\Controllers",
     "\\Dbcontext",
     "\\Migrations",
+    "\\Migrations\\RoleDb",
     "\\Models",
-    "\\Models\\Requests",
     "\\Models\\tables",
     "\\obj",
     "\\obj\\Debug",
     "\\Properties",
     "\\Services"
   ],
-  "SelectedNode": "\\Models\\tables\\Roles.cs",
+  "SelectedNode": "\\Models\\Requests\\validate-login.cs",
   "PreviewInSolutionExplorer": false
 }

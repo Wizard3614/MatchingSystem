@@ -15,7 +15,6 @@
         public bool IsDeleted { get; set; } = false;
         public string Salt { get; set; } = string.Empty;
         public List<int> RoleList { get; set; } = new List<int>();
-
         public User()
         {
         }

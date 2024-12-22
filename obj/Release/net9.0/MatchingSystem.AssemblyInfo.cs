@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MatchingSystem")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3ca5b56114facffe135c080057403aba52e70b0a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7f25b407573f09e6b6820960897a828e0d0355e6")]
 [assembly: System.Reflection.AssemblyProductAttribute("MatchingSystem")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MatchingSystem")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
