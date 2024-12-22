@@ -32,9 +32,24 @@ namespace MatchingSystem.Services
 
         public async Task<(bool success, string message)> CreateRoleAsync(CreateRoleRequest request)
         {
+            if (string.IsNullOrWhiteSpace(request.Id))
+            {
+                return (false, "Role ID cannot be empty.");
+            }
+
             if (_dbContext.Roles.Any(u => u.Id == request.Id))
             {
                 return (false, "role id already exists.");
+            }
+
+            if (string.IsNullOrWhiteSpace(request.Name))
+            {
+                return (false, "Name cannot be empty ");
+            }
+
+            if (request.Permissions == null || !request.Permissions.Any())
+            {
+                return (false, "Permission cannot be empty");
             }
 
             var role = new Roles
