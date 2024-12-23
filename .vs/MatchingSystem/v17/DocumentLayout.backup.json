@@ -1,93 +1,85 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\DotNet\\Matching System\\MatchingSystem\\",
+  "WorkspaceRootPath": "G:\\VsCodeing\\.Net\\MatchingSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{70EBE176-288A-4D6A-BB38-AA8D3CDF6E1E}|MatchingSystem.csproj|e:\\dotnet\\matching system\\matchingsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70EBE176-288A-4D6A-BB38-AA8D3CDF6E1E}|MatchingSystem.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{70EBE176-288A-4D6A-BB38-AA8D3CDF6E1E}|MatchingSystem.csproj|e:\\dotnet\\matching system\\matchingsystem\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70EBE176-288A-4D6A-BB38-AA8D3CDF6E1E}|MatchingSystem.csproj|solutionrelative:services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{70EBE176-288A-4D6A-BB38-AA8D3CDF6E1E}|MatchingSystem.csproj|e:\\dotnet\\matching system\\matchingsystem\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{70EBE176-288A-4D6A-BB38-AA8D3CDF6E1E}|MatchingSystem.csproj|g:\\vscodeing\\.net\\matchingsystem\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{70EBE176-288A-4D6A-BB38-AA8D3CDF6E1E}|MatchingSystem.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{70EBE176-288A-4D6A-BB38-AA8D3CDF6E1E}|MatchingSystem.csproj|e:\\dotnet\\matching system\\matchingsystem\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70EBE176-288A-4D6A-BB38-AA8D3CDF6E1E}|MatchingSystem.csproj|solutionrelative:services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{70EBE176-288A-4D6A-BB38-AA8D3CDF6E1E}|MatchingSystem.csproj|g:\\vscodeing\\.net\\matchingsystem\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70EBE176-288A-4D6A-BB38-AA8D3CDF6E1E}|MatchingSystem.csproj|solutionrelative:services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{70EBE176-288A-4D6A-BB38-AA8D3CDF6E1E}|MatchingSystem.csproj|e:\\dotnet\\matching system\\matchingsystem\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70EBE176-288A-4D6A-BB38-AA8D3CDF6E1E}|MatchingSystem.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{70EBE176-288A-4D6A-BB38-AA8D3CDF6E1E}|MatchingSystem.csproj|e:\\dotnet\\matching system\\matchingsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{70EBE176-288A-4D6A-BB38-AA8D3CDF6E1E}|MatchingSystem.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{70EBE176-288A-4D6A-BB38-AA8D3CDF6E1E}|MatchingSystem.csproj|e:\\dotnet\\matching system\\matchingsystem\\models\\jwtbody.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70EBE176-288A-4D6A-BB38-AA8D3CDF6E1E}|MatchingSystem.csproj|solutionrelative:models\\jwtbody.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{70EBE176-288A-4D6A-BB38-AA8D3CDF6E1E}|MatchingSystem.csproj|e:\\dotnet\\matching system\\matchingsystem\\models\\tables\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{70EBE176-288A-4D6A-BB38-AA8D3CDF6E1E}|MatchingSystem.csproj|g:\\vscodeing\\.net\\matchingsystem\\models\\tables\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{70EBE176-288A-4D6A-BB38-AA8D3CDF6E1E}|MatchingSystem.csproj|solutionrelative:models\\tables\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{70EBE176-288A-4D6A-BB38-AA8D3CDF6E1E}|MatchingSystem.csproj|e:\\dotnet\\matching system\\matchingsystem\\models\\requests\\validate-login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70EBE176-288A-4D6A-BB38-AA8D3CDF6E1E}|MatchingSystem.csproj|solutionrelative:models\\requests\\validate-login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{70EBE176-288A-4D6A-BB38-AA8D3CDF6E1E}|MatchingSystem.csproj|g:\\vscodeing\\.net\\matchingsystem\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70EBE176-288A-4D6A-BB38-AA8D3CDF6E1E}|MatchingSystem.csproj|solutionrelative:services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{70EBE176-288A-4D6A-BB38-AA8D3CDF6E1E}|MatchingSystem.csproj|e:\\dotnet\\matching system\\matchingsystem\\models\\requests\\userdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{70EBE176-288A-4D6A-BB38-AA8D3CDF6E1E}|MatchingSystem.csproj|g:\\vscodeing\\.net\\matchingsystem\\models\\requests\\usergeneralinformation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70EBE176-288A-4D6A-BB38-AA8D3CDF6E1E}|MatchingSystem.csproj|solutionrelative:models\\requests\\usergeneralinformation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70EBE176-288A-4D6A-BB38-AA8D3CDF6E1E}|MatchingSystem.csproj|g:\\vscodeing\\.net\\matchingsystem\\models\\requests\\userdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{70EBE176-288A-4D6A-BB38-AA8D3CDF6E1E}|MatchingSystem.csproj|solutionrelative:models\\requests\\userdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{70EBE176-288A-4D6A-BB38-AA8D3CDF6E1E}|MatchingSystem.csproj|e:\\dotnet\\matching system\\matchingsystem\\models\\requests\\loginuserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{70EBE176-288A-4D6A-BB38-AA8D3CDF6E1E}|MatchingSystem.csproj|g:\\vscodeing\\.net\\matchingsystem\\models\\requests\\loginuserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{70EBE176-288A-4D6A-BB38-AA8D3CDF6E1E}|MatchingSystem.csproj|solutionrelative:models\\requests\\loginuserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{70EBE176-288A-4D6A-BB38-AA8D3CDF6E1E}|MatchingSystem.csproj|e:\\dotnet\\matching system\\matchingsystem\\models\\requests\\forgotpasswordrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{70EBE176-288A-4D6A-BB38-AA8D3CDF6E1E}|MatchingSystem.csproj|g:\\vscodeing\\.net\\matchingsystem\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70EBE176-288A-4D6A-BB38-AA8D3CDF6E1E}|MatchingSystem.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70EBE176-288A-4D6A-BB38-AA8D3CDF6E1E}|MatchingSystem.csproj|g:\\vscodeing\\.net\\matchingsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70EBE176-288A-4D6A-BB38-AA8D3CDF6E1E}|MatchingSystem.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70EBE176-288A-4D6A-BB38-AA8D3CDF6E1E}|MatchingSystem.csproj|g:\\vscodeing\\.net\\matchingsystem\\models\\requests\\validate-login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70EBE176-288A-4D6A-BB38-AA8D3CDF6E1E}|MatchingSystem.csproj|solutionrelative:models\\requests\\validate-login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70EBE176-288A-4D6A-BB38-AA8D3CDF6E1E}|MatchingSystem.csproj|g:\\vscodeing\\.net\\matchingsystem\\models\\requests\\forgotpasswordrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{70EBE176-288A-4D6A-BB38-AA8D3CDF6E1E}|MatchingSystem.csproj|solutionrelative:models\\requests\\forgotpasswordrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{70EBE176-288A-4D6A-BB38-AA8D3CDF6E1E}|MatchingSystem.csproj|e:\\dotnet\\matching system\\matchingsystem\\models\\requests\\registeruserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{70EBE176-288A-4D6A-BB38-AA8D3CDF6E1E}|MatchingSystem.csproj|g:\\vscodeing\\.net\\matchingsystem\\models\\requests\\registeruserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{70EBE176-288A-4D6A-BB38-AA8D3CDF6E1E}|MatchingSystem.csproj|solutionrelative:models\\requests\\registeruserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{70EBE176-288A-4D6A-BB38-AA8D3CDF6E1E}|MatchingSystem.csproj|e:\\dotnet\\matching system\\matchingsystem\\services\\redisservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70EBE176-288A-4D6A-BB38-AA8D3CDF6E1E}|MatchingSystem.csproj|solutionrelative:services\\redisservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{70EBE176-288A-4D6A-BB38-AA8D3CDF6E1E}|MatchingSystem.csproj|g:\\vscodeing\\.net\\matchingsystem\\models\\jwtbody.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70EBE176-288A-4D6A-BB38-AA8D3CDF6E1E}|MatchingSystem.csproj|solutionrelative:models\\jwtbody.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{70EBE176-288A-4D6A-BB38-AA8D3CDF6E1E}|MatchingSystem.csproj|e:\\dotnet\\matching system\\matchingsystem\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70EBE176-288A-4D6A-BB38-AA8D3CDF6E1E}|MatchingSystem.csproj|solutionrelative:services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{70EBE176-288A-4D6A-BB38-AA8D3CDF6E1E}|MatchingSystem.csproj|g:\\vscodeing\\.net\\matchingsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{70EBE176-288A-4D6A-BB38-AA8D3CDF6E1E}|MatchingSystem.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{70EBE176-288A-4D6A-BB38-AA8D3CDF6E1E}|MatchingSystem.csproj|e:\\dotnet\\matching system\\matchingsystem\\services\\sha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70EBE176-288A-4D6A-BB38-AA8D3CDF6E1E}|MatchingSystem.csproj|solutionrelative:services\\sha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{70EBE176-288A-4D6A-BB38-AA8D3CDF6E1E}|MatchingSystem.csproj|e:\\dotnet\\matching system\\matchingsystem\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{70EBE176-288A-4D6A-BB38-AA8D3CDF6E1E}|MatchingSystem.csproj|g:\\vscodeing\\.net\\matchingsystem\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{70EBE176-288A-4D6A-BB38-AA8D3CDF6E1E}|MatchingSystem.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{70EBE176-288A-4D6A-BB38-AA8D3CDF6E1E}|MatchingSystem.csproj|e:\\dotnet\\matching system\\matchingsystem\\matchingsystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{70EBE176-288A-4D6A-BB38-AA8D3CDF6E1E}|MatchingSystem.csproj|g:\\vscodeing\\.net\\matchingsystem\\matchingsystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{70EBE176-288A-4D6A-BB38-AA8D3CDF6E1E}|MatchingSystem.csproj|solutionrelative:matchingsystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{70EBE176-288A-4D6A-BB38-AA8D3CDF6E1E}|MatchingSystem.csproj|e:\\dotnet\\matching system\\matchingsystem\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{70EBE176-288A-4D6A-BB38-AA8D3CDF6E1E}|MatchingSystem.csproj|g:\\vscodeing\\.net\\matchingsystem\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{70EBE176-288A-4D6A-BB38-AA8D3CDF6E1E}|MatchingSystem.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{70EBE176-288A-4D6A-BB38-AA8D3CDF6E1E}|MatchingSystem.csproj|e:\\dotnet\\matching system\\matchingsystem\\matchingsystem.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "AbsoluteMoniker": "D:0:0:{70EBE176-288A-4D6A-BB38-AA8D3CDF6E1E}|MatchingSystem.csproj|g:\\vscodeing\\.net\\matchingsystem\\matchingsystem.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
       "RelativeMoniker": "D:0:0:{70EBE176-288A-4D6A-BB38-AA8D3CDF6E1E}|MatchingSystem.csproj|solutionrelative:matchingsystem.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{70EBE176-288A-4D6A-BB38-AA8D3CDF6E1E}|MatchingSystem.csproj|e:\\dotnet\\matching system\\matchingsystem\\dbcontext\\userdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{70EBE176-288A-4D6A-BB38-AA8D3CDF6E1E}|MatchingSystem.csproj|g:\\vscodeing\\.net\\matchingsystem\\dbcontext\\userdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{70EBE176-288A-4D6A-BB38-AA8D3CDF6E1E}|MatchingSystem.csproj|solutionrelative:dbcontext\\userdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{70EBE176-288A-4D6A-BB38-AA8D3CDF6E1E}|MatchingSystem.csproj|e:\\dotnet\\matching system\\matchingsystem\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{70EBE176-288A-4D6A-BB38-AA8D3CDF6E1E}|MatchingSystem.csproj|g:\\vscodeing\\.net\\matchingsystem\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{70EBE176-288A-4D6A-BB38-AA8D3CDF6E1E}|MatchingSystem.csproj|solutionrelative:weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -98,8 +90,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 6,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
@@ -109,14 +105,70 @@
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserGeneralInformation.cs",
+              "DocumentMoniker": "G:\\VsCodeing\\.Net\\MatchingSystem\\Models\\Requests\\UserGeneralInformation.cs",
+              "RelativeDocumentMoniker": "Models\\Requests\\UserGeneralInformation.cs",
+              "ToolTip": "G:\\VsCodeing\\.Net\\MatchingSystem\\Models\\Requests\\UserGeneralInformation.cs",
+              "RelativeToolTip": "Models\\Requests\\UserGeneralInformation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwQAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T05:38:43.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserDetails.cs",
+              "DocumentMoniker": "G:\\VsCodeing\\.Net\\MatchingSystem\\Models\\Requests\\UserDetails.cs",
+              "RelativeDocumentMoniker": "Models\\Requests\\UserDetails.cs",
+              "ToolTip": "G:\\VsCodeing\\.Net\\MatchingSystem\\Models\\Requests\\UserDetails.cs",
+              "RelativeToolTip": "Models\\Requests\\UserDetails.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T05:33:05.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "G:\\VsCodeing\\.Net\\MatchingSystem\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "G:\\VsCodeing\\.Net\\MatchingSystem\\Controllers\\UserController.cs*",
+              "RelativeToolTip": "Controllers\\UserController.cs*",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAkwF8AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T20:16:02.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "User.cs",
+              "DocumentMoniker": "G:\\VsCodeing\\.Net\\MatchingSystem\\Models\\tables\\User.cs",
+              "RelativeDocumentMoniker": "Models\\tables\\User.cs",
+              "ToolTip": "G:\\VsCodeing\\.Net\\MatchingSystem\\Models\\tables\\User.cs",
+              "RelativeToolTip": "Models\\tables\\User.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAywBYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T07:26:44.607Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "UserService.cs",
-              "DocumentMoniker": "E:\\DotNet\\Matching System\\MatchingSystem\\Services\\UserService.cs",
+              "DocumentMoniker": "G:\\VsCodeing\\.Net\\MatchingSystem\\Services\\UserService.cs",
               "RelativeDocumentMoniker": "Services\\UserService.cs",
-              "ToolTip": "E:\\DotNet\\Matching System\\MatchingSystem\\Services\\UserService.cs",
+              "ToolTip": "G:\\VsCodeing\\.Net\\MatchingSystem\\Services\\UserService.cs",
               "RelativeToolTip": "Services\\UserService.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAWwBcAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAowHcAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-19T22:09:07.181Z",
               "EditorCaption": ""
@@ -125,130 +177,22 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "AuthService.cs",
-              "DocumentMoniker": "E:\\DotNet\\Matching System\\MatchingSystem\\Services\\AuthService.cs",
+              "DocumentMoniker": "G:\\VsCodeing\\.Net\\MatchingSystem\\Services\\AuthService.cs",
               "RelativeDocumentMoniker": "Services\\AuthService.cs",
-              "ToolTip": "E:\\DotNet\\Matching System\\MatchingSystem\\Services\\AuthService.cs",
+              "ToolTip": "G:\\VsCodeing\\.Net\\MatchingSystem\\Services\\AuthService.cs",
               "RelativeToolTip": "Services\\AuthService.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAADwvygAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAP8AAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-19T21:28:27.752Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "User.cs",
-              "DocumentMoniker": "E:\\DotNet\\Matching System\\MatchingSystem\\Models\\tables\\User.cs",
-              "RelativeDocumentMoniker": "Models\\tables\\User.cs",
-              "ToolTip": "E:\\DotNet\\Matching System\\MatchingSystem\\Models\\tables\\User.cs",
-              "RelativeToolTip": "Models\\tables\\User.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAIwAwAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T07:26:44.607Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "JwtBody.cs",
-              "DocumentMoniker": "E:\\DotNet\\Matching System\\MatchingSystem\\Models\\JwtBody.cs",
-              "RelativeDocumentMoniker": "Models\\JwtBody.cs",
-              "ToolTip": "E:\\DotNet\\Matching System\\MatchingSystem\\Models\\JwtBody.cs",
-              "RelativeToolTip": "Models\\JwtBody.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T19:19:01.922Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "E:\\DotNet\\Matching System\\MatchingSystem\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
-              "ToolTip": "E:\\DotNet\\Matching System\\MatchingSystem\\Controllers\\UserController.cs",
-              "RelativeToolTip": "Controllers\\UserController.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAQwCwAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T20:16:02.261Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "validate-login.cs",
-              "DocumentMoniker": "E:\\DotNet\\Matching System\\MatchingSystem\\Models\\Requests\\validate-login.cs",
-              "RelativeDocumentMoniker": "Models\\Requests\\validate-login.cs",
-              "ToolTip": "E:\\DotNet\\Matching System\\MatchingSystem\\Models\\Requests\\validate-login.cs",
-              "RelativeToolTip": "Models\\Requests\\validate-login.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T18:24:15.674Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "E:\\DotNet\\Matching System\\MatchingSystem\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
-              "ToolTip": "E:\\DotNet\\Matching System\\MatchingSystem\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "Controllers\\AuthController.cs",
-              "ViewState": "AgIAAHcAAAAAAAAAAAAcwIIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T07:53:20.697Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "E:\\DotNet\\Matching System\\MatchingSystem\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "E:\\DotNet\\Matching System\\MatchingSystem\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-18T08:58:22.7Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\DotNet\\Matching System\\MatchingSystem\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "E:\\DotNet\\Matching System\\MatchingSystem\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAApwDgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T07:46:00.588Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "UserDetails.cs",
-              "DocumentMoniker": "E:\\DotNet\\Matching System\\MatchingSystem\\Models\\Requests\\UserDetails.cs",
-              "RelativeDocumentMoniker": "Models\\Requests\\UserDetails.cs",
-              "ToolTip": "E:\\DotNet\\Matching System\\MatchingSystem\\Models\\Requests\\UserDetails.cs",
-              "RelativeToolTip": "Models\\Requests\\UserDetails.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T22:26:17.389Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
               "Title": "LoginUserRequest.cs",
-              "DocumentMoniker": "E:\\DotNet\\Matching System\\MatchingSystem\\Models\\Requests\\LoginUserRequest.cs",
+              "DocumentMoniker": "G:\\VsCodeing\\.Net\\MatchingSystem\\Models\\Requests\\LoginUserRequest.cs",
               "RelativeDocumentMoniker": "Models\\Requests\\LoginUserRequest.cs",
-              "ToolTip": "E:\\DotNet\\Matching System\\MatchingSystem\\Models\\Requests\\LoginUserRequest.cs",
+              "ToolTip": "G:\\VsCodeing\\.Net\\MatchingSystem\\Models\\Requests\\LoginUserRequest.cs",
               "RelativeToolTip": "Models\\Requests\\LoginUserRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -257,11 +201,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 7,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "G:\\VsCodeing\\.Net\\MatchingSystem\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "G:\\VsCodeing\\.Net\\MatchingSystem\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAmwIkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T07:53:20.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "ForgotPasswordRequest.cs",
-              "DocumentMoniker": "E:\\DotNet\\Matching System\\MatchingSystem\\Models\\Requests\\ForgotPasswordRequest.cs",
+              "DocumentMoniker": "G:\\VsCodeing\\.Net\\MatchingSystem\\Models\\Requests\\ForgotPasswordRequest.cs",
               "RelativeDocumentMoniker": "Models\\Requests\\ForgotPasswordRequest.cs",
-              "ToolTip": "E:\\DotNet\\Matching System\\MatchingSystem\\Models\\Requests\\ForgotPasswordRequest.cs",
+              "ToolTip": "G:\\VsCodeing\\.Net\\MatchingSystem\\Models\\Requests\\ForgotPasswordRequest.cs",
               "RelativeToolTip": "Models\\Requests\\ForgotPasswordRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -270,37 +227,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "redisService.cs",
-              "DocumentMoniker": "E:\\DotNet\\Matching System\\MatchingSystem\\Services\\redisService.cs",
-              "RelativeDocumentMoniker": "Services\\redisService.cs",
-              "ToolTip": "E:\\DotNet\\Matching System\\MatchingSystem\\Services\\redisService.cs",
-              "RelativeToolTip": "Services\\redisService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "G:\\VsCodeing\\.Net\\MatchingSystem\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "G:\\VsCodeing\\.Net\\MatchingSystem\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAADgv08AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T22:22:02.956Z",
+              "WhenOpened": "2024-12-18T07:46:00.588Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Jwtservice.cs",
-              "DocumentMoniker": "E:\\DotNet\\Matching System\\MatchingSystem\\Services\\Jwtservice.cs",
-              "RelativeDocumentMoniker": "Services\\Jwtservice.cs",
-              "ToolTip": "E:\\DotNet\\Matching System\\MatchingSystem\\Services\\Jwtservice.cs",
-              "RelativeToolTip": "Services\\Jwtservice.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAADQAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T19:21:10.619Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 11,
               "Title": "RegisterUserRequest.cs",
-              "DocumentMoniker": "E:\\DotNet\\Matching System\\MatchingSystem\\Models\\Requests\\RegisterUserRequest.cs",
+              "DocumentMoniker": "G:\\VsCodeing\\.Net\\MatchingSystem\\Models\\Requests\\RegisterUserRequest.cs",
               "RelativeDocumentMoniker": "Models\\Requests\\RegisterUserRequest.cs",
-              "ToolTip": "E:\\DotNet\\Matching System\\MatchingSystem\\Models\\Requests\\RegisterUserRequest.cs",
+              "ToolTip": "G:\\VsCodeing\\.Net\\MatchingSystem\\Models\\Requests\\RegisterUserRequest.cs",
               "RelativeToolTip": "Models\\Requests\\RegisterUserRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -309,94 +253,113 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "SHA.cs",
-              "DocumentMoniker": "E:\\DotNet\\Matching System\\MatchingSystem\\Services\\SHA.cs",
-              "RelativeDocumentMoniker": "Services\\SHA.cs",
-              "ToolTip": "E:\\DotNet\\Matching System\\MatchingSystem\\Services\\SHA.cs",
-              "RelativeToolTip": "Services\\SHA.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA8AAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "validate-login.cs",
+              "DocumentMoniker": "G:\\VsCodeing\\.Net\\MatchingSystem\\Models\\Requests\\validate-login.cs",
+              "RelativeDocumentMoniker": "Models\\Requests\\validate-login.cs",
+              "ToolTip": "G:\\VsCodeing\\.Net\\MatchingSystem\\Models\\Requests\\validate-login.cs",
+              "RelativeToolTip": "Models\\Requests\\validate-login.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T17:17:54.397Z",
+              "WhenOpened": "2024-12-19T18:24:15.674Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 12,
+              "Title": "JwtBody.cs",
+              "DocumentMoniker": "G:\\VsCodeing\\.Net\\MatchingSystem\\Models\\JwtBody.cs",
+              "RelativeDocumentMoniker": "Models\\JwtBody.cs",
+              "ToolTip": "G:\\VsCodeing\\.Net\\MatchingSystem\\Models\\JwtBody.cs",
+              "RelativeToolTip": "Models\\JwtBody.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T19:19:01.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "G:\\VsCodeing\\.Net\\MatchingSystem\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "G:\\VsCodeing\\.Net\\MatchingSystem\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-18T08:58:22.7Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "appsettings.Development.json",
-              "DocumentMoniker": "E:\\DotNet\\Matching System\\MatchingSystem\\appsettings.Development.json",
+              "DocumentMoniker": "G:\\VsCodeing\\.Net\\MatchingSystem\\appsettings.Development.json",
               "RelativeDocumentMoniker": "appsettings.Development.json",
-              "ToolTip": "E:\\DotNet\\Matching System\\MatchingSystem\\appsettings.Development.json",
+              "ToolTip": "G:\\VsCodeing\\.Net\\MatchingSystem\\appsettings.Development.json",
               "RelativeToolTip": "appsettings.Development.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-18T08:56:25.59Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "WeatherForecast.cs",
-              "DocumentMoniker": "E:\\DotNet\\Matching System\\MatchingSystem\\WeatherForecast.cs",
-              "RelativeDocumentMoniker": "WeatherForecast.cs",
-              "ToolTip": "E:\\DotNet\\Matching System\\MatchingSystem\\WeatherForecast.cs",
-              "RelativeToolTip": "WeatherForecast.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T08:58:17.138Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "UserDbcontext.cs",
-              "DocumentMoniker": "E:\\DotNet\\Matching System\\MatchingSystem\\Dbcontext\\UserDbcontext.cs",
-              "RelativeDocumentMoniker": "Dbcontext\\UserDbcontext.cs",
-              "ToolTip": "E:\\DotNet\\Matching System\\MatchingSystem\\Dbcontext\\UserDbcontext.cs",
-              "RelativeToolTip": "Dbcontext\\UserDbcontext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T07:34:26.482Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "MatchingSystem.csproj",
-              "DocumentMoniker": "E:\\DotNet\\Matching System\\MatchingSystem\\MatchingSystem.csproj",
-              "RelativeDocumentMoniker": "MatchingSystem.csproj",
-              "ToolTip": "E:\\DotNet\\Matching System\\MatchingSystem\\MatchingSystem.csproj",
-              "RelativeToolTip": "MatchingSystem.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-18T07:33:56.868Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "E:\\DotNet\\Matching System\\MatchingSystem\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
-              "ToolTip": "E:\\DotNet\\Matching System\\MatchingSystem\\Properties\\launchSettings.json",
-              "RelativeToolTip": "Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-18T08:41:43.728Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-18T08:56:25.59Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 19,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "G:\\VsCodeing\\.Net\\MatchingSystem\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "WeatherForecast.cs",
+              "ToolTip": "G:\\VsCodeing\\.Net\\MatchingSystem\\WeatherForecast.cs",
+              "RelativeToolTip": "WeatherForecast.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T08:58:17.138Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "UserDbcontext.cs",
+              "DocumentMoniker": "G:\\VsCodeing\\.Net\\MatchingSystem\\Dbcontext\\UserDbcontext.cs",
+              "RelativeDocumentMoniker": "Dbcontext\\UserDbcontext.cs",
+              "ToolTip": "G:\\VsCodeing\\.Net\\MatchingSystem\\Dbcontext\\UserDbcontext.cs",
+              "RelativeToolTip": "Dbcontext\\UserDbcontext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T07:34:26.482Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MatchingSystem.csproj",
+              "DocumentMoniker": "G:\\VsCodeing\\.Net\\MatchingSystem\\MatchingSystem.csproj",
+              "RelativeDocumentMoniker": "MatchingSystem.csproj",
+              "ToolTip": "G:\\VsCodeing\\.Net\\MatchingSystem\\MatchingSystem.csproj",
+              "RelativeToolTip": "MatchingSystem.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-18T07:33:56.868Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "G:\\VsCodeing\\.Net\\MatchingSystem\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "G:\\VsCodeing\\.Net\\MatchingSystem\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-18T08:41:43.728Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "MatchingSystem.http",
-              "DocumentMoniker": "E:\\DotNet\\Matching System\\MatchingSystem\\MatchingSystem.http",
+              "DocumentMoniker": "G:\\VsCodeing\\.Net\\MatchingSystem\\MatchingSystem.http",
               "RelativeDocumentMoniker": "MatchingSystem.http",
-              "ToolTip": "E:\\DotNet\\Matching System\\MatchingSystem\\MatchingSystem.http",
+              "ToolTip": "G:\\VsCodeing\\.Net\\MatchingSystem\\MatchingSystem.http",
               "RelativeToolTip": "MatchingSystem.http",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2024-12-18T08:56:33.313Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-18T08:56:33.313Z"
             }
           ]
         }

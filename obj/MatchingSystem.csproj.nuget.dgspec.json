@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "E:\\DotNet\\Matching System\\MatchingSystem\\MatchingSystem.csproj": {}
+    "G:\\VsCodeing\\.Net\\MatchingSystem\\MatchingSystem.csproj": {}
   },
   "projects": {
-    "E:\\DotNet\\Matching System\\MatchingSystem\\MatchingSystem.csproj": {
+    "G:\\VsCodeing\\.Net\\MatchingSystem\\MatchingSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\DotNet\\Matching System\\MatchingSystem\\MatchingSystem.csproj",
+        "projectUniqueName": "G:\\VsCodeing\\.Net\\MatchingSystem\\MatchingSystem.csproj",
         "projectName": "MatchingSystem",
-        "projectPath": "E:\\DotNet\\Matching System\\MatchingSystem\\MatchingSystem.csproj",
-        "packagesPath": "C:\\Users\\Wizard\\.nuget\\packages\\",
-        "outputPath": "E:\\DotNet\\Matching System\\MatchingSystem\\obj\\",
+        "projectPath": "G:\\VsCodeing\\.Net\\MatchingSystem\\MatchingSystem.csproj",
+        "packagesPath": "C:\\Users\\涂迈\\.nuget\\packages\\",
+        "outputPath": "G:\\VsCodeing\\.Net\\MatchingSystem\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "D:\\VisualStudio\\Microsoft\\VisualStudio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Wizard\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\涂迈\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -25,9 +25,7 @@
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "D:\\dotnet\\实验3-1018\\packages": {},
+          "F:\\DotNet Package": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -44,7 +42,7 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
+          "auditMode": "direct"
         },
         "SdkAnalysisLevel": "9.0.100"
       },
@@ -112,7 +110,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
