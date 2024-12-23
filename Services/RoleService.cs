@@ -21,12 +21,14 @@ namespace MatchingSystem.Services
     public class RoleService : IRoleService
     {
         private readonly RoleDbContext _dbContext;
+        private readonly UserDbContext _userDbContext;
 
-        public RoleService(RoleDbContext dbContext)
+        public RoleService(RoleDbContext dbContext, UserDbContext userDbContext)
         {
             _dbContext = dbContext;
+            _userDbContext = userDbContext;
 
-        }
+    }
 
 
 
@@ -80,7 +82,6 @@ namespace MatchingSystem.Services
             roledata.Name = newRoleName;
             roledata.Permissions = newPermissions ?? new List<string>();  // 如果传入的权限为 null，则使用空列表
 
-            // 保存更改到数据库
             _dbContext.Roles.Update(roledata);
             await _dbContext.SaveChangesAsync();
 
@@ -95,13 +96,24 @@ namespace MatchingSystem.Services
 
             if (role == null)
             {
-                return (true, "Role Delete fault"); // 如果找不到角色，返回 false 表示删除失败
+                return (false, "Role Delete fault");
             }
 
             // 删除角色
             _dbContext.Roles.Remove(role);
-            await _dbContext.SaveChangesAsync();  // 保存更改
-            return (true, "Role Delete successfully"); //删除成功
+            await _dbContext.SaveChangesAsync(); 
+
+            var usersToUpdate = await _userDbContext.Users
+                                           .Where(u => u.RoleList.Contains(role.Id))
+                                           .ToListAsync();
+
+            foreach (var user in usersToUpdate)
+            {
+                user.RoleList.Remove(role.Id);
+            }
+
+            await _userDbContext.SaveChangesAsync();
+        return (true, "Role Delete successfully"); 
         }
 
         // 查看所有角色

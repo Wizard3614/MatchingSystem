@@ -1,5 +1,4 @@
-﻿
-namespace MatchingSystem.Models.Requests
+﻿namespace MatchingSystem.Models.Requests
 {
     public class CreateRoleRequest
     {

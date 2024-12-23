@@ -53,5 +53,35 @@ namespace MatchingSystem.Controllers
 
             return Ok(new { success = true, message, data = response });
         }
+
+
+        //方便获取user属性
+        // 分配角色给用户
+        [HttpPost("{adminUserId}/assignroles/{userId}")]
+        public async Task<IActionResult> AssignRolesToUser(int adminUserId, int userId, [FromBody] AssignrolesRequest request)
+        {
+            var result = await _userService.AssignRolesToUserAsync(adminUserId, userId, request.RoleIds);
+            if (result.success)
+            {
+                return Ok(new { message = result.message }); 
+            }
+
+            return BadRequest(new { message = "false", error = result });
+        }
+
+
+        //获取用户角色和职责
+        [HttpPost("getuserrole")]
+        public async Task<IActionResult> GetRolesForUser(int userId)
+        {
+            var (success, result) = await _userService.GetRolesForUserAsync(userId);
+
+            if (success)
+            {
+                return Ok(result);
+            }
+            return BadRequest(new { message = "false", error = result }); 
+        }
+
     }
 }
