@@ -59,7 +59,7 @@ namespace MatchingSystem.Controllers
             }
             catch (ArgumentException ex)
             {
-                return NotFound(ex.Message);  // 如果角色不存在，返回 404
+                return NotFound(ex.Message);  
             }
             catch (Exception ex)
             {
@@ -98,7 +98,7 @@ namespace MatchingSystem.Controllers
         [HttpPost("{adminUserId}/assignroles/{userId}")]
         public async Task<IActionResult> AssignRolesToUser(int adminUserId, int userId, [FromBody] AssignrolesRequest request)
         {
-            // 验证 roleIds 是否为空或包含无效数据
+
             if (request.RoleIds == null || !request.RoleIds.Any())
             {
                 return BadRequest(new { message = "Role IDs cannot be empty or null." });

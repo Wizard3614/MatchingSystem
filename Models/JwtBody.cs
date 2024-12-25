@@ -4,7 +4,11 @@
     {
         public string UserId { get; set; } 
         public string Code { get; set; }    
-        public DateTime Expiration { get; set; } 
+
+        public string IsOnline { get; set; }
+
+        public DateTime Expiration { get; set; }
+
     }
 
 }

@@ -50,6 +50,11 @@
     "Order": 0,
     "Parameters": [
       {
+        "Name": "access_token",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
         "Name": "request",
         "Type": "MatchingSystem.Models.Requests.LoginUserRequest",
         "IsRequired": true
@@ -90,21 +95,84 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "MatchingSystem.Controllers.AuthController",
-    "Method": "ValidateLogin",
-    "RelativePath": "api/Auth/validate-login",
+    "ContainingType": "MatchingSystem.Controllers.RoleController",
+    "Method": "AssignRolesToUser",
+    "RelativePath": "api/Role/{adminUserId}/assignroles/{userId}",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "access_token",
-        "Type": "System.String",
-        "IsRequired": false
+        "Name": "adminUserId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
       },
       {
         "Name": "request",
-        "Type": "MatchingSystem.Models.Requests.Validate_login",
+        "Type": "MatchingSystem.Models.Requests.AssignrolesRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MatchingSystem.Controllers.RoleController",
+    "Method": "CreateRole",
+    "RelativePath": "api/Role/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MatchingSystem.Models.Requests.CreateRoleRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MatchingSystem.Controllers.RoleController",
+    "Method": "DeleteRole",
+    "RelativePath": "api/Role/delete",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MatchingSystem.Models.Requests.DeleteRoleRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MatchingSystem.Controllers.RoleController",
+    "Method": "GetRoles",
+    "RelativePath": "api/Role/getRoles",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MatchingSystem.Controllers.RoleController",
+    "Method": "UpdateRole",
+    "RelativePath": "api/Role/Update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MatchingSystem.Models.Requests.UpdateRoleRequest",
         "IsRequired": true
       }
     ],

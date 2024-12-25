@@ -20,12 +20,12 @@ namespace MatchingSystem.Services
 {
     public class UserService
     {
-        private readonly UserDbContext _ctx;
-        private readonly RoleDbContext _roleDbContext;
+        private readonly MDbContext _ctx;
+        private readonly MDbContext _roleDbContext;
         private readonly IConnectionMultiplexer _redis;
         private readonly JwtService _jwtService;
 
-        public UserService(UserDbContext ctx, IConnectionMultiplexer redis, JwtService jwtService, RoleDbContext roleDbContext)
+        public UserService(MDbContext ctx, IConnectionMultiplexer redis, JwtService jwtService, MDbContext roleDbContext)
         {
             _ctx = ctx;
             _roleDbContext = roleDbContext;

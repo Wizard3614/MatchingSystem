@@ -29,12 +29,15 @@ namespace MatchingSystem.Services
 
                 var userIdClaim = tokenS.Claims.FirstOrDefault(c => c.Type == ClaimTypes.NameIdentifier)?.Value;
                 var codeClaim = tokenS.Claims.FirstOrDefault(c => c.Type == ClaimTypes.PostalCode)?.Value;
+                var isOnlineClaim = tokenS.Claims.FirstOrDefault(c => c.Type == "IsOnline");
                 var expirationClaim = tokenS.ValidTo;
 
+                string isOnlineValue = isOnlineClaim.Value;
                 var jwtBody = new JwtBody
                 {
                     UserId = userIdClaim,
                     Code = codeClaim,
+                    IsOnline = isOnlineValue,
                     Expiration = expirationClaim
                 };
 

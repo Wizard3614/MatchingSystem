@@ -29,11 +29,9 @@ namespace MatchingSystem.Controllers
 
             if (!success)
             {
-                // 如果注册失败，返回 Conflict 状态码
                 return Conflict(new { success = false, message });
             }
 
-            // 如果注册成功，返回 OK 状态码
             return Ok(new { success = true, message });
         }
 
@@ -43,15 +41,27 @@ namespace MatchingSystem.Controllers
         /// <param name="request">登录请求数据</param>
         /// <returns>JWT令牌</returns>
         [HttpPost("login")]
-        public async Task<IActionResult> Login([FromBody] LoginUserRequest request)
+        public async Task<IActionResult> Login([FromHeader] string? access_token,[FromBody] LoginUserRequest request)
         {
+            if (!string.IsNullOrEmpty(access_token))
+            {
+                var (success1, message1, token1) = await _authService.LoginAsync1(access_token);
+
+                if (success1)
+                {
+                    Response.Headers.Add("Authorization", $"access_token {token1}");
+                    return Ok(new { success1, message1 });
+                }
+
+                if (message1.Equals("User is online")) return Conflict(new { message = "User is already logged in." });
+            }
             var (success, message, token) = await _authService.LoginAsync(request);
 
             if (!success)
             {
                 return Unauthorized(new { success, message });
             }
-
+            Response.Headers.Add("Authorization", $"access_token {token}");
             return Ok(new { success, message, token });
         }
 
@@ -59,7 +69,6 @@ namespace MatchingSystem.Controllers
         [HttpPost("logout")]
         public async Task<IActionResult> Logout([FromHeader] string access_token)
         {
-
             var (flag, msg) = await _authService.TokenExistsAsync(access_token);
             if (!flag)
             {
@@ -71,28 +80,6 @@ namespace MatchingSystem.Controllers
             if (!success)
             {
                 return Unauthorized(new { success = false, message });
-            }
-
-            return Ok(new { success = true, message });
-        }
-
-        [HttpPost("validate-login")]
-        public async Task<IActionResult> ValidateLogin([FromHeader] string access_token, [FromBody] Validate_login request)
-        {
-
-            var (flag, msg) = await _authService.TokenExistsAsync(access_token);
-            if (!flag)
-            {
-                return BadRequest(new { success = false, msg });
-            }
-
-            string tokenToValidate = request.Token ?? access_token;
-
-            var (success, message) = await _authService.ValidateLoginAsync(tokenToValidate);
-
-            if (!success)
-            {
-                return Ok(new { success = false, message });
             }
 
             return Ok(new { success = true, message });
@@ -138,5 +125,7 @@ namespace MatchingSystem.Controllers
 
             return Ok(new { success = true, message });
         }
+
+
     }
 }

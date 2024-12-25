@@ -16,13 +16,8 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 // Configure SQLite DbContext with dependency injection
-builder.Services.AddDbContext<UserDbContext>(options =>
+builder.Services.AddDbContext<MDbContext>(options =>
     options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
-
-// 注册 RoleDbContext 并指定数据库连接字符串
-builder.Services.AddDbContext<RoleDbContext>(options =>
-    options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
-
 
 // Add JWT Authentication
 var secretKey = builder.Configuration["Jwt:SecretKey"]; // Fetch JWT secret key from configuration
@@ -67,7 +62,7 @@ var app = builder.Build();
 // Database migration logic
 using (var scope = app.Services.CreateScope())
 {
-    var dbContext = scope.ServiceProvider.GetRequiredService<UserDbContext>();
+    var dbContext = scope.ServiceProvider.GetRequiredService<MDbContext>();
     dbContext.Database.Migrate();
 }
 
@@ -78,7 +73,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI(c =>
     {
         c.SwaggerEndpoint("/swagger/v1/swagger.json", "API V1");
-        c.RoutePrefix = string.Empty; // Swagger UI at root
+        c.RoutePrefix = string.Empty;
     });
 }
 

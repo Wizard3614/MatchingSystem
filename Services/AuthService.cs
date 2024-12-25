@@ -18,12 +18,12 @@ namespace MatchingSystem.Services
 {
     public class AuthService
     {
-        private readonly UserDbContext _ctx;
+        private readonly MDbContext _ctx;
         private readonly IConfiguration _configuration;
         private readonly IConnectionMultiplexer _redis;
         private readonly JwtService _jwtService;
 
-        public AuthService(UserDbContext ctx, IConfiguration configuration, IConnectionMultiplexer redis, JwtService jwtService)
+        public AuthService(MDbContext ctx, IConfiguration configuration, IConnectionMultiplexer redis, JwtService jwtService)
         {
             _ctx = ctx;
             _configuration = configuration;
@@ -40,6 +40,33 @@ namespace MatchingSystem.Services
             }
 
             var jwtBody = _jwtService.ParseJwtToken(token);
+            string key = $"user:{jwtBody.Code}";
+
+            var db = _redis.GetDatabase();
+            bool tokenExists = await db.KeyExistsAsync(key);
+            if (!tokenExists)
+            {
+                return (false, "Token is invalid or expired");
+            }
+
+            return (true, "");
+        }
+
+        public async Task<(bool success, string message)> TokenExistsAsync1(string token)
+        {
+
+            if (string.IsNullOrEmpty(token))
+            {
+                return (false, "Token is missing");
+            }
+
+            var jwtBody = _jwtService.ParseJwtToken(token);
+
+            if (jwtBody.IsOnline.Equals("True"))
+            {
+                return (false, "User is online");
+            }
+
             string key = $"user:{jwtBody.Code}";
 
             var db = _redis.GetDatabase();
@@ -70,12 +97,43 @@ namespace MatchingSystem.Services
                 return (false, "User name already exists.");
             }
 
+            if (!request.HassedPassword.Equals(request.ReHassedPassword))
+            {
+                return (false, "Passwords do not match.");
+            }
+
+            if (string.IsNullOrEmpty(request.HassedPassword))
+            {
+                return (false, "Missing Password");
+            }
+
+            if (string.IsNullOrEmpty(request.Code))
+            {
+                return (false, "Missing Code");
+            }
+
+            if (!System.Text.RegularExpressions.Regex.IsMatch(request.Code, @"^\d+$"))
+            {
+                return (false, "Unable Code");
+            }
+
+
+            if (string.IsNullOrEmpty(request.Email))
+            {
+                return (false, "Missing Email");
+            }
+
+            if (string.IsNullOrEmpty(request.Username))
+            {
+                return (false, "Missing Username");
+            }
+
             var newUser = new User
             {
                 Code = request.Code,
                 Email = request.Email,
                 Username = request.Username,
-                HashedPassword = SHA.ComputeSha1Hash(request.HassedPassword)
+                HashedPassword = request.HassedPassword
             };
 
             _ctx.Users.Add(newUser);
@@ -94,7 +152,7 @@ namespace MatchingSystem.Services
             }
 
             var method = "POST";
-            var path = "/api/authorize/login";
+            var path = "/api/Auth/login";
             var timestamp = request.Timestamp;
             var nonce = request.Nounce;
             var loginToken = request.Token;
@@ -112,11 +170,14 @@ namespace MatchingSystem.Services
             }
 
             var signatureString = $"{method}\n{path}\n{timestamp}\n{nonce}\n{loginToken}\n{sha1Password}";
+            
             var computedSignature = SHA.ComputeSha256Hash(signatureString);
+
+            
 
             if (computedSignature != request.Signature)
             {
-                return (false, "Invalid signature.", null);
+                return (false, signatureString+" "+computedSignature + " "+ sha1Password, null);
             }
 
             var jwtToken = GenerateJwtToken(user);
@@ -128,8 +189,27 @@ namespace MatchingSystem.Services
             return (true, "Login successful", jwtToken);
         }
 
-        // 验证 JWT 是否有效
-        public async Task<(bool success, string message)> ValidateLoginAsync(string tokenToValidate)
+        //用token登录
+        public async Task<(bool success, string message, string token)> LoginAsync1(string access_token)
+        {
+            var (flag, msg) = await TokenExistsAsync1(access_token);
+            if (!flag) return (false, msg, null);
+
+            var jwtBody = _jwtService.ParseJwtToken(access_token);
+            var user = _ctx.Users.FirstOrDefault(u => u.Code == jwtBody.Code);
+
+            string key = $"user:{user.Code}";
+            var db = _redis.GetDatabase();
+            var jwtToken = GenerateJwtToken(user);
+            await db.StringSetAsync(key, jwtToken, TimeSpan.FromHours(0.15));
+
+            return (true,"login success", jwtToken);
+
+
+        }
+
+        // 验证 JWT 是否有效以及用户是否在线
+        public async Task<(bool success, string message)> ValidateLoginAsync1(string tokenToValidate)
         {
             if (string.IsNullOrEmpty(tokenToValidate))
             {
@@ -137,9 +217,13 @@ namespace MatchingSystem.Services
             }
 
             var jwtBody = _jwtService.ParseJwtToken(tokenToValidate);
-            string key = $"user:{jwtBody.Code}";
 
-            var db = _redis.GetDatabase() ;
+            if (jwtBody.IsOnline.Equals("true")){
+                return (false, "User is online");
+            }
+
+            string key = $"user:{jwtBody.Code}";
+            var db = _redis.GetDatabase();
             bool tokenExists = await db.KeyExistsAsync(key);
             if (!tokenExists)
             {
@@ -255,6 +339,7 @@ namespace MatchingSystem.Services
             {
                 new Claim(ClaimTypes.NameIdentifier, user.UserId.ToString()),
                 new Claim(ClaimTypes.PostalCode, user.Code),
+                new Claim("IsOnline", true.ToString())
             };
 
             var token = new JwtSecurityToken(

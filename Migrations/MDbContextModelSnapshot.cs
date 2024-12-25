@@ -9,15 +9,33 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace MatchingSystem.Migrations
 {
-    [DbContext(typeof(UserDbContext))]
-    partial class UserDbContextModelSnapshot : ModelSnapshot
+    [DbContext(typeof(MDbContext))]
+    partial class MDbContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "9.0.0");
 
-            modelBuilder.Entity("MatchingSystem.Models.User", b =>
+            modelBuilder.Entity("MatchingSystem.Models.tables.Roles", b =>
+                {
+                    b.Property<string>("Id")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Permissions")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Roles");
+                });
+
+            modelBuilder.Entity("MatchingSystem.Models.tables.User", b =>
                 {
                     b.Property<int>("UserId")
                         .ValueGeneratedOnAdd()
@@ -32,6 +50,7 @@ namespace MatchingSystem.Migrations
 
                     b.Property<string>("Code")
                         .IsRequired()
+                        .HasMaxLength(20)
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Email")
@@ -71,7 +90,10 @@ namespace MatchingSystem.Migrations
 
                     b.HasKey("UserId");
 
-                    b.ToTable("Users");
+                    b.ToTable("Users", t =>
+                        {
+                            t.HasCheckConstraint("CK_User_Code_Numeric", "Code GLOB '[0-9]*'");
+                        });
                 });
 #pragma warning restore 612, 618
         }

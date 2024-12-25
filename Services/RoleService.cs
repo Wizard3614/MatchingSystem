@@ -20,14 +20,13 @@ namespace MatchingSystem.Services
 {
     public class RoleService : IRoleService
     {
-        private readonly RoleDbContext _dbContext;
-        private readonly UserDbContext _userDbContext;
+        private readonly MDbContext _dbContext;
+        private readonly MDbContext _userDbContext;
 
-        public RoleService(RoleDbContext dbContext, UserDbContext userDbContext)
+        public RoleService(MDbContext dbContext, MDbContext userDbContext)
         {
             _dbContext = dbContext;
             _userDbContext = userDbContext;
-
     }
 
 
