@@ -140,9 +140,9 @@
               "Title": "UserController.cs",
               "DocumentMoniker": "G:\\VsCodeing\\.Net\\MatchingSystem\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "Controllers\\UserController.cs",
-              "ToolTip": "G:\\VsCodeing\\.Net\\MatchingSystem\\Controllers\\UserController.cs*",
-              "RelativeToolTip": "Controllers\\UserController.cs*",
-              "ViewState": "AgIAAE8AAAAAAAAAAAAkwF8AAAAYAAAAAAAAAA==",
+              "ToolTip": "G:\\VsCodeing\\.Net\\MatchingSystem\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAowG4AAABXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-19T20:16:02.261Z",
               "EditorCaption": ""
@@ -168,7 +168,7 @@
               "RelativeDocumentMoniker": "Services\\UserService.cs",
               "ToolTip": "G:\\VsCodeing\\.Net\\MatchingSystem\\Services\\UserService.cs",
               "RelativeToolTip": "Services\\UserService.cs",
-              "ViewState": "AgIAAGAAAAAAAAAAAAAowHcAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwDUAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-19T22:09:07.181Z",
               "EditorCaption": ""

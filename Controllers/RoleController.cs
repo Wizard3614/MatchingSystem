@@ -21,11 +21,13 @@ namespace MatchingSystem.Controllers
     public class RoleController : ControllerBase
     {
         private readonly IRoleService _roleService;
+        private readonly UserService _userService;
 
-        public RoleController(IRoleService roleService)
+        public RoleController(IRoleService roleService,UserService userService)
         {
             _roleService = roleService;
-        }
+            _userService = userService;
+    }
 
         // 创建新角色
         [HttpPost("create")]
@@ -91,6 +93,27 @@ namespace MatchingSystem.Controllers
 
             return Ok(roles); // 返回角色列表
         }
+
+
+        [HttpPost("{adminUserId}/assignroles/{userId}")]
+        public async Task<IActionResult> AssignRolesToUser(int adminUserId, int userId, [FromBody] AssignrolesRequest request)
+        {
+            // 验证 roleIds 是否为空或包含无效数据
+            if (request.RoleIds == null || !request.RoleIds.Any())
+            {
+                return BadRequest(new { message = "Role IDs cannot be empty or null." });
+            }
+
+            var result = await _userService.AssignRolesToUserAsync(adminUserId, userId, request.RoleIds);
+
+            if (result.success)
+            {
+                return Ok(new { message = result.message });
+            }
+
+            return BadRequest(new { message = "Failed to assign roles", error = result.message });
+        }
+
 
 
     }

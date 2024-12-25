@@ -5,6 +5,6 @@
         public string Username { get; set; }
         public string Avator { get; set; }
         public string Gender { get; set; }
-        public List<int> RoleList { get; set; } = new List<int>();
+        public List<string> RoleList { get; set; } = new List<string>();
     }
 }

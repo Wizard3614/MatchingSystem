@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "G:\\VsCodeing\\.Net\\MatchingSystem\\MatchingSystem.csproj": {}
+    "C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\MatchingSystem.csproj": {}
   },
   "projects": {
-    "G:\\VsCodeing\\.Net\\MatchingSystem\\MatchingSystem.csproj": {
+    "C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\MatchingSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\VsCodeing\\.Net\\MatchingSystem\\MatchingSystem.csproj",
+        "projectUniqueName": "C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\MatchingSystem.csproj",
         "projectName": "MatchingSystem",
-        "projectPath": "G:\\VsCodeing\\.Net\\MatchingSystem\\MatchingSystem.csproj",
-        "packagesPath": "C:\\Users\\涂迈\\.nuget\\packages\\",
-        "outputPath": "G:\\VsCodeing\\.Net\\MatchingSystem\\obj\\",
+        "projectPath": "C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\MatchingSystem.csproj",
+        "packagesPath": "C:\\Users\\16353\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\VisualStudio\\Microsoft\\VisualStudio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\涂迈\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\16353\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -25,7 +25,9 @@
           "net9.0"
         ],
         "sources": {
-          "F:\\DotNet Package": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\Users\\16353\\Desktop\\6": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
