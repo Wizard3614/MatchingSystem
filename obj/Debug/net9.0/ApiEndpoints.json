@@ -112,6 +112,27 @@
   },
   {
     "ContainingType": "MatchingSystem.Controllers.UserController",
+    "Method": "DeleteUser",
+    "RelativePath": "api/User/delete/{userCode}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "access_token",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "userCode",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MatchingSystem.Controllers.UserController",
     "Method": "GetUserInfo",
     "RelativePath": "api/User/getuserinfo",
     "HttpMethod": "POST",
@@ -126,6 +147,74 @@
       {
         "Name": "Code",
         "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MatchingSystem.Controllers.UserController",
+    "Method": "GetUsers",
+    "RelativePath": "api/User/getUsers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "access_token",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "page_size",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MatchingSystem.Controllers.UserController",
+    "Method": "SaveUser",
+    "RelativePath": "api/User/saveUser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "access_token",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "request",
+        "Type": "MatchingSystem.Models.tables.User",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MatchingSystem.Controllers.UserController",
+    "Method": "SaveUserAdmin",
+    "RelativePath": "api/User/saveUserAdmin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "access_token",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "request",
+        "Type": "MatchingSystem.Models.tables.User",
         "IsRequired": true
       }
     ],
