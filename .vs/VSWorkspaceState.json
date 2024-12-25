@@ -1,0 +1,17 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Dbcontext",
+    "\\Migrations",
+    "\\Migrations\\RoleDb",
+    "\\Models",
+    "\\Models\\Requests",
+    "\\Models\\tables",
+    "\\obj",
+    "\\obj\\Debug",
+    "\\Properties",
+    "\\Services"
+  ],
+  "SelectedNode": "\\Controllers\\RoleController.cs",
+  "PreviewInSolutionExplorer": false
+}

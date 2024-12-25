@@ -19,6 +19,11 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<UserDbContext>(options =>
     options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
 
+// 注册 RoleDbContext 并指定数据库连接字符串
+builder.Services.AddDbContext<RoleDbContext>(options =>
+    options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+
 // Add JWT Authentication
 var secretKey = builder.Configuration["Jwt:SecretKey"]; // Fetch JWT secret key from configuration
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
@@ -38,6 +43,7 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
 builder.Services.AddScoped<JwtService>();
 builder.Services.AddScoped<AuthService>();
 builder.Services.AddScoped<UserService>();
+builder.Services.AddScoped<IRoleService, RoleService>();
 
 // Add authorization services
 builder.Services.AddAuthorization();
@@ -45,6 +51,9 @@ builder.Services.AddAuthorization();
 // Configure Redis connection
 var redisConnectionString = builder.Configuration["Redis:ConnectionString"];
 builder.Services.AddSingleton<IConnectionMultiplexer>(ConnectionMultiplexer.Connect(redisConnectionString));
+
+
+
 
 // Enable Swagger UI only in Development environment
 if (builder.Environment.IsDevelopment())
@@ -72,6 +81,11 @@ if (app.Environment.IsDevelopment())
         c.RoutePrefix = string.Empty; // Swagger UI at root
     });
 }
+
+
+
+
+
 
 app.UseHttpsRedirection();
 app.UseAuthentication();  // Enable authentication middleware

@@ -14,8 +14,7 @@
         public string HashedPassword { get; set; } = string.Empty;
         public bool IsDeleted { get; set; } = false;
         public string Salt { get; set; } = string.Empty;
-        public List<int> RoleList { get; set; } = new List<int>();
-
+        public List<string> RoleList { get; set; } = new List<string>();
         public User()
         {
         }
@@ -32,7 +31,7 @@
             string hashedPassword,
             bool isDeleted,
             string salt,
-            List<int> roleList)
+            List<string> roleList)
         {
             (Username, Email, RealName, MobilePhone, Code, Avatar, Gender, Birthday, HashedPassword, IsDeleted, Salt, RoleList) =
                 (username, email, realName, mobilePhone, code, avatar, gender, birthday, hashedPassword, isDeleted, salt, roleList);

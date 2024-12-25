@@ -75,7 +75,7 @@ namespace MatchingSystem.Services
                 Code = request.Code,
                 Email = request.Email,
                 Username = request.Username,
-                HashedPassword = request.HassedPassword
+                HashedPassword = SHA.ComputeSha1Hash(request.HassedPassword)
             };
 
             _ctx.Users.Add(newUser);
