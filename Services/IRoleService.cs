@@ -32,6 +32,11 @@ namespace MatchingSystem.Services
 
         ////查看角色列表
         Task<List<Roles>> GetRolesAsync();
-        //Task<Role> GetRoleByIdAsync(Guid roleId);
+
+        // 获取角色通过 ID
+        Task<(bool success, object result)> GetRoleByIdAsync(string roleId);
+
+        // 获取角色通过名称
+        //Task<(bool success, object result)> GetRoleByNameAsync(string roleName);
     }
 }

@@ -177,7 +177,7 @@ namespace MatchingSystem.Services
 
             if (computedSignature != request.Signature)
             {
-                return (false, signatureString+" "+computedSignature + " "+ sha1Password, null);
+                return (false, computedSignature+" "+sha1Password, null);
             }
 
             var jwtToken = GenerateJwtToken(user);

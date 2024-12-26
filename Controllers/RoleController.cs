@@ -31,8 +31,14 @@ namespace MatchingSystem.Controllers
 
         // 创建新角色
         [HttpPost("create")]
-        public async Task<IActionResult> CreateRole([FromBody] CreateRoleRequest request)
+        public async Task<IActionResult> CreateRole([FromHeader] string access_token, [FromBody] CreateRoleRequest request)
         {
+            var (flag, msg) = await _userService.TokenExistsAsync(access_token);
+            if (!flag)
+            {
+                return BadRequest(new { success = false, msg });
+            }
+
             var (success, message) = await _roleService.CreateRoleAsync(request);
 
             if (!success)
@@ -45,8 +51,15 @@ namespace MatchingSystem.Controllers
 
         //更新角色
         [HttpPost("Update")]
-        public async Task<IActionResult> UpdateRole([FromBody] UpdateRoleRequest request)
+        public async Task<IActionResult> UpdateRole([FromHeader] string access_token, [FromBody] UpdateRoleRequest request)
         {
+
+            var (flag, msg) = await _userService.TokenExistsAsync(access_token);
+            if (!flag)
+            {
+                return BadRequest(new { success = false, msg });
+            }
+
             if (request == null)
             {
                 return BadRequest("Invalid request body.");
@@ -69,8 +82,15 @@ namespace MatchingSystem.Controllers
 
         //删除角色
         [HttpPost("delete")]
-        public async Task<IActionResult> DeleteRole([FromBody] DeleteRoleRequest request)
+        public async Task<IActionResult> DeleteRole([FromHeader] string access_token, [FromBody] DeleteRoleRequest request)
         {
+
+            var (flag, msg) = await _userService.TokenExistsAsync(access_token);
+            if (!flag)
+            {
+                return BadRequest(new { success = false, msg });
+            }
+
             var (success, message) = await _roleService.DeleteRoleAsync(request.RoleId);
 
             if (!success)
@@ -83,8 +103,14 @@ namespace MatchingSystem.Controllers
         //查看角色列表
         [HttpPost]
         [Route("getRoles")]
-        public async Task<IActionResult> GetRoles()
+        public async Task<IActionResult> GetRoles([FromHeader] string access_token)
         {
+            var (flag, msg) = await _userService.TokenExistsAsync(access_token);
+            if (!flag)
+            {
+                return BadRequest(new { success = false, msg });
+            }
+
             var roles = await _roleService.GetRolesAsync();
             if (roles == null || !roles.Any())
             {
@@ -94,7 +120,42 @@ namespace MatchingSystem.Controllers
             return Ok(roles); // 返回角色列表
         }
 
+        //查看角色
+        //获取角色通过 ID
+        [HttpPost("getRoleById/{roleId}")]
+        public async Task<IActionResult> GetRoleById([FromHeader] string access_token, string roleId)
+        {
+            var (flag, msg) = await _userService.TokenExistsAsync(access_token);
+            if (!flag)
+            {
+                return BadRequest(new { success = false, msg });
+            }
 
+            var result = await _roleService.GetRoleByIdAsync(roleId);
+
+            if (result.success)
+            {
+                return Ok(new { role = result.result });
+            }
+
+            return NotFound(new { message = result.result });
+        }
+
+        // 获取角色通过名称
+        //[HttpPost("getRoleByName/{roleName}")]
+        //public async Task<IActionResult> GetRoleByName(string roleName)
+        //{
+        //    var result = await _roleService.GetRoleByNameAsync(roleName);
+
+        //    if (result.success)
+        //    {
+        //        return Ok(new { role = result.result });
+        //    }
+
+        //    return NotFound(new { message = result.result });
+        //}
+
+        //分配角色
         [HttpPost("{adminUserId}/assignroles/{userId}")]
         public async Task<IActionResult> AssignRolesToUser(int adminUserId, int userId, [FromBody] AssignrolesRequest request)
         {

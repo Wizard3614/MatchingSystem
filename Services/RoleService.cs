@@ -66,7 +66,7 @@ namespace MatchingSystem.Services
             return (true, "Role created successfully");
         }
 
-
+        //修改角色
         public async Task<(bool success, string message)> UpdateRoleAsync(string roleId, string newRoleName, List<string> newPermissions)
         {
             var roledata = await _dbContext.Roles
@@ -87,6 +87,7 @@ namespace MatchingSystem.Services
             return (true, "Role Updata successfully");
         }
 
+        //删除角色
         public async Task<(bool success, string message)> DeleteRoleAsync(string roleId)
         {
             // 查找角色
@@ -120,6 +121,38 @@ namespace MatchingSystem.Services
         {
             return await _dbContext.Roles.ToListAsync();
         }
+
+
+        //查看角色
+        // 获取角色通过 ID
+        public async Task<(bool success, object result)> GetRoleByIdAsync(string roleId)
+        {
+            var role = await _dbContext.Roles
+                                        .Where(r => r.Id == roleId)
+                                        .FirstOrDefaultAsync();
+
+            if (role == null)
+            {
+                return (false, "Role not found.");
+            }
+
+            return (true, role);
+        }
+
+        // 获取角色通过名称
+        //public async Task<(bool success, object result)> GetRoleByNameAsync(string roleName)
+        //{
+        //    var role = await _dbContext.Roles
+        //                                .Where(r => r.Name == roleName)
+        //                                .FirstOrDefaultAsync();
+
+        //    if (role == null)
+        //    {
+        //        return (false, "Role not found.");
+        //    }
+
+        //    return (true, role);
+        //}
 
 
 
