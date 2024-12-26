@@ -41,7 +41,7 @@ namespace MatchingSystem.Controllers
 
             if (!success)
             {
-                return BadRequest(new { success = false, message });
+                return Unauthorized(new { success = false, message });
             }
 
 

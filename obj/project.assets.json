@@ -4000,23 +4000,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\16353\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\涂迈\\.nuget\\packages\\": {},
+    "D:\\VisualStudio\\Microsoft\\VisualStudio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\MatchingSystem.csproj",
+      "projectUniqueName": "G:\\VsCodeing\\.Net\\MatchingSystem\\MatchingSystem.csproj",
       "projectName": "MatchingSystem",
-      "projectPath": "C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\MatchingSystem.csproj",
-      "packagesPath": "C:\\Users\\16353\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\16353\\Documents\\GitHub\\MatchingSystem\\obj\\",
+      "projectPath": "G:\\VsCodeing\\.Net\\MatchingSystem\\MatchingSystem.csproj",
+      "packagesPath": "C:\\Users\\涂迈\\.nuget\\packages\\",
+      "outputPath": "G:\\VsCodeing\\.Net\\MatchingSystem\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "D:\\VisualStudio\\Microsoft\\VisualStudio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\16353\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\涂迈\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -4024,9 +4024,7 @@
         "net9.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
-        "C:\\Users\\16353\\Desktop\\6": {},
+        "F:\\DotNet Package": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

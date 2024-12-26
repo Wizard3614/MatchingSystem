@@ -129,6 +129,11 @@
     "Order": 0,
     "Parameters": [
       {
+        "Name": "access_token",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
         "Name": "request",
         "Type": "MatchingSystem.Models.Requests.CreateRoleRequest",
         "IsRequired": true
@@ -145,8 +150,34 @@
     "Order": 0,
     "Parameters": [
       {
+        "Name": "access_token",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
         "Name": "request",
         "Type": "MatchingSystem.Models.Requests.DeleteRoleRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MatchingSystem.Controllers.RoleController",
+    "Method": "GetRoleById",
+    "RelativePath": "api/Role/getRoleById/{roleId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "access_token",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "roleId",
+        "Type": "System.String",
         "IsRequired": true
       }
     ],
@@ -159,7 +190,13 @@
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "access_token",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
     "ReturnTypes": []
   },
   {
@@ -170,6 +207,11 @@
     "IsController": true,
     "Order": 0,
     "Parameters": [
+      {
+        "Name": "access_token",
+        "Type": "System.String",
+        "IsRequired": false
+      },
       {
         "Name": "request",
         "Type": "MatchingSystem.Models.Requests.UpdateRoleRequest",
